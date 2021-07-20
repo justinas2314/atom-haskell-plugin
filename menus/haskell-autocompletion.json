@@ -1,12 +1,4 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Register Modules",
-        "command": "haskell-autocompletion:register_modules"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
@@ -14,10 +6,6 @@
         {
           "label": "Haskell Autocompletion",
           "submenu": [
-            {
-              "label": "Register Modules",
-              "command": "haskell-autocompletion:register_modules"
-            },
             {
               "label": "Register Every Module",
               "command": "haskell-autocompletion:register_every_module"
