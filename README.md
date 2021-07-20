@@ -1,7 +1,7 @@
 # haskell-autocompletion atom package
 
 This Atom package suggests standard library function names as you are typing.
-![example with s and Data.List](https://github.com/justinas2314/atom-haskell-plugin/blob/a42eca83463a499370c37e240b5ba41ba5fae2cf/readme%20images/s.png)
+![example with s and Data.List](https://github.com/justinas2314/atom-haskell-plugin/blob/a42eca83463a499370c37e240b5ba41ba5fae2cf/readme%20images/s.png)  
 ![example with so and Data.List](https://github.com/justinas2314/atom-haskell-plugin/blob/a42eca83463a499370c37e240b5ba41ba5fae2cf/readme%20images/so.png)
 ### Additional commands  
 * `Register Modules` - (Ctrl + Shift + H) by default  
