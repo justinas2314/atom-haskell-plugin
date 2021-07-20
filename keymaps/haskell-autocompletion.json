@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-shift-h": "haskell-autocompletion:register_modules",
+    "ctrl-shift-o": "haskell-autocompletion:register_every_module"
+  }
+}

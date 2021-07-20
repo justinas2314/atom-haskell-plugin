@@ -1,0 +1,22 @@
+{
+  "name": "haskell-autocompletion",
+  "main": "./lib/main.js",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/haskell-autocompletion",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "providedServices": {
+  "autocomplete.provider": {
+    "versions": {
+      "2.0.0": "getProvider"
+    }
+  }
+}
+}
