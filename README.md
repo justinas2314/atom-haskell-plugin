@@ -12,4 +12,4 @@ starts suggesting function names from all standard library modules
 I couldn't find an atom package that did this specific thing so I made one.
 ### How?
 This uses the [autocomplete-plus](https://atom.io/packages/autocomplete-plus) package (it's built in there's no need to install it) to suggest function names that you might use.  
-The data that this uses has been scraped off of [Hackage](https://hackage.haskell.org/package/base-4.15.0.0) and formatted with python. If a function had signatures like `Bool -> Bool` and `Int -> Int -> Int` it was converted to `a -> a -> a` because this script is too simple to tell which one you would need. 
+The data that this uses has been scraped off of [Hackage](https://hackage.haskell.org/package/base-4.15.0.0) and formatted with python. If a function had signatures like `Bool -> Bool -> Bool` and `Int -> Int -> Int` it was converted to `a -> a -> a` because this script is too simple to tell which one you would need. 
